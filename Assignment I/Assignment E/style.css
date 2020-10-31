@@ -1,0 +1,21 @@
+.column {
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    border: 3px solid red;
+}
+
+#third {
+    width: 500px;
+    padding: 10px;
+    margin: 30px;
+    border: 3px solid red;
+}
+
+.float {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

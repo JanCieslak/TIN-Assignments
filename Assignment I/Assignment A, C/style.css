@@ -1,0 +1,17 @@
+h1, p, th, td {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: square;
+}

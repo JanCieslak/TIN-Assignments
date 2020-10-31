@@ -1,0 +1,19 @@
+form {
+    border: 3px solid black;
+    padding: 25px;
+    width: 50%;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+input.tf {
+    background-color: red;
+}
