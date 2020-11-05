@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+
+header img {
+  border-radius: 25px;
+  transform: rotateZ(10deg);
+  box-shadow: 0px 0px 15px 15px lightgray;
+  margin-bottom: 50px;
+}
+
+aside figure {
+  margin: 0 15px;
+}
+
+aside figure figcaption {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+main {
+  margin: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main > div {
+  border: 1px solid red;
+  padding: 0 25px 25px 25px;
+  flex: 1 1 200px;
+}
+
+.pullquote {
+  padding: 10px;
+  font-size: 24px;
+  float: right;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  background-color: lightgray;
+  height: 100px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  #container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

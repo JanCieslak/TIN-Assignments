@@ -1,0 +1,11 @@
+[ x ] - header - rounded corners, rotated, shadow, text
+[ x ] - aside gallery - on the left, 
+                        images with captions (figure and figcaption)
+[   ] - main text - on the right, images + quotes, text wrapped around images,
+                    pulled quotes should be formatted to stand out from
+                    surrounding text, text divided into columns,
+                    number of columns should change depending on 
+                    available space
+[ x ] - footer
+[   ] - on devices with width < 800px text should be one column with gallery
+        after the text
