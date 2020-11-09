@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>temperature converter</title>
+</head>
+<body>
+  
+  <main>
+    <div id="container">
+      <label for="finput" id="finputlabel">From: </label>
+      <input type="text" id="finput" name="finput">
+      <label for="finput" id="finputtemp">&#176 Celsius</label>
+
+      <button id="swap" type="button">
+        <img src="static/swap.svg" width="25"/>
+      </button>
+
+      <label for="tinput" id="tinputlabel">To: </label>
+      <input type="text" id="tinput" name="tinput" readonly>
+      <label for="tinput" id="tinputtemp">&#176 Fahrenheit</label>
+
+      <button id="convert">Convert</button>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
