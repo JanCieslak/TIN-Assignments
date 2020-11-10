@@ -1,0 +1,15 @@
+body {
+  background: radial-gradient(circle, rgb(181, 193, 255) 0%, rgb(159, 138, 255) 100%);
+}
+
+#container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 50px;
+}

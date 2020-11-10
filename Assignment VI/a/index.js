@@ -1,3 +1,5 @@
+'use strict';
+
 const convertBtn = document.getElementById('convert');
 const fromInput = document.getElementById('finput');
 const toInput = document.getElementById('tinput');

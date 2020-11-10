@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Converter</h1>
+
+      <div id="resultContainer">
+        <h2 id="result">result: 32</h2>
+      </div>
+
+      <div>
+        <input type="text" name="from" id="from" />
+        <select name="fromOp" id="fromOp">
+          <optgroup label="Temperature">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+          </optgroup>
+          <optgroup label="Distance">
+            <option value="Kilometers">Kilometers</option>
+            <option value="Miles">Miles</option>
+          </optgroup>
+        </select>
+
+        <input type="text" name="to" id="to" readonly />
+        <select name="toOp" id="toOp">
+          <optgroup label="Temperature">
+            <option value="Celsius">Celsius</option>
+            <option value="Kelvin">Kelvin</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+          </optgroup>
+          <optgroup label="Distance">
+            <option value="Kilometers">Kilometers</option>
+            <option value="Miles">Miles</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <button id="convertBtn">Convert</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
