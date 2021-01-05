@@ -31,12 +31,10 @@ class KilometerConverter extends AbstractDistanceConverter {
     super(fromValue);
   }
 
-  // override
   toKilometers() {
     return this.fromValue;
   }
 
-  // override
   toMiles() {
     return (this.fromValue / 1.609344).toFixed(3);
   }
@@ -47,12 +45,10 @@ class MilesConverter extends AbstractDistanceConverter {
     super(fromValue);
   }
 
-  // override
   toKilometers() {
     return (this.fromValue * 1.609344).toFixed(3);
   }
 
-  // override
   toMiles() {
     return this.fromValue;
   }

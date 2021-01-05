@@ -44,12 +44,12 @@ class CelsiusConverter extends AbstractTemperatureConverter {
 
   // override
   toKelvin() {
-    throw new Error('Abstract method');
+    return this.fromValue + 273.15;
   }
 
   // override
   toFahrenheit() {
-    throw new Error('Abstract method');
+    return this.fromValue * 1.8 + 32;
   }
 }
 
@@ -60,7 +60,7 @@ class KelvinConverter extends AbstractTemperatureConverter {
 
   // override
   toCelsius() {
-    throw new Error('Abstract method');
+    return this.fromValue - 273.15;
   }
 
   // override
@@ -70,7 +70,7 @@ class KelvinConverter extends AbstractTemperatureConverter {
 
   // override
   toFahrenheit() {
-    throw new Error('Abstract method');
+    return this.fromValue * 1.8 - 459.67;
   }
 }
 
@@ -81,12 +81,12 @@ class FahrenheitConverter extends AbstractTemperatureConverter {
 
   // override
   toCelsius() {
-    throw new Error('Abstract method');
+    return (this.fromValue - 32) / 1.8;
   }
 
   // override
   toKelvin() {
-    throw new Error('Abstract method');
+    return (this.fromValue + 459.67) * (5/9);
   }
 
   // override

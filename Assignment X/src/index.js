@@ -12,8 +12,6 @@ const { DistanceConverter, TemperatureConverter } = require('./converter.js');
 convertBtn.onclick = () => {
   const fromOptCode = fromOp[fromOp.selectedIndex].parentNode.label;
   const toOptCode = toOp[toOp.selectedIndex].parentNode.label;
-  
-  // TODO: Better design
 
   if (fromOptCode === toOptCode) {
     switch (fromOptCode) {
@@ -25,7 +23,5 @@ convertBtn.onclick = () => {
         to.value = new DistanceConverter(fromOp.value, toOp.value, from.value).convert();
       break;
     }
-  } else {
-    // TODO
   }
 }
